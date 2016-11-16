@@ -1,0 +1,33 @@
+.icon{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url('../imgs/icon.png'); 
+    background-position-x: 0px;         
+    background-repeat: no-repeat;
+    margin: 0 1px;
+}
+.sina{
+    background-position-y: -144px; 
+}
+.qzone{
+    background-position-y: -96px; 
+}
+.tqq{
+    background-position-y: -216px; 
+}
+.renren{
+    background-position-y: -240px; 
+}
+.douban{
+    background-position-y: -840px; 
+}
+.facebook{
+    background-position-y: -1032px; 
+}
+.twitter{
+    background-position-y: -1056px; 
+}
+.weixin{
+    background-position-y: -2712px; 
+}

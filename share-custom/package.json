@@ -1,0 +1,28 @@
+{
+  "name": "share-custom",
+  "version": "1.0.0",
+  "description": "a custom share function",
+  "main": "Gruntfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/wuln/share-custom.git"
+  },
+  "keywords": [
+    "share"
+  ],
+  "author": "wuln",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wuln/share-custom/issues"
+  },
+  "homepage": "https://github.com/wuln/share-custom#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "grunt-contrib-jshint": "^1.0.0",
+    "grunt-contrib-uglify": "^2.0.0",
+    "grunt-contrib-watch": "^1.0.0"
+  }
+}

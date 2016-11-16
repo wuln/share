@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>自定义分享</title>       
+</head>
+<body>
+    <a class="icon sina" href="javascript:share.weibo();" title="分享到新浪微博"></a>
+    <a class="icon qzone" href="javascript:share.qzone();" title="分享到QQ空间"></a>
+    <a class="icon tqq" href="javascript:share.tqq();" title="分享到腾讯微博"></a>
+    <a class="icon renren" href="javascript:share.renren();" title="分享到人人网"></a>
+    <a class="icon douban" href="javascript:share.douban();" title="分享到豆瓣"></a>
+    <a class="icon facebook" href="javascript:share.facebook();" title="分享到facebook"></a>
+    <a class="icon twitter" href="javascript:share.twitter();" title="分享到twitter"></a>    
+    <a class="icon weixin" href="javascript:share.weixin();" title="分享到微信"></a>
+    <a class="icon" href="javascript:share.weixin(function(qrcode){ alert(qrcode); });" title="weixin with callback"></a>
+    
+    <link rel="stylesheet" href="lib/main.css">  
+    <script src="build/share.min.js"></script>   
+    <script>
+        var share = new Share({
+            url: 'http://www.taobao.com/',
+            title: '淘宝网',
+            content: '淘宝网 - 亚洲较大的网上交易平台，提供各类服饰、美容、家居、数码、话费/点卡充值… 数亿优质商品，同时提供担保交易(先收货后付款)等安全交易保障服务，并由商家提供退货承诺、破损补寄等消费者保障服务，让你安心享受网上购物乐趣！',
+            pic: 'http://gtms01.alicdn.com/tps/i1/T1SwHiFnlkXXc.QAHh-202-55.png'
+        });       
+    </script>
+</body>
+</html>
