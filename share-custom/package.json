@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/wuln/share-custom.git"
+    "url": "https://github.com/wuln/share/tree/master/share-custom.git"
   },
   "keywords": [
     "share"
@@ -16,9 +16,9 @@
   "author": "wuln",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/wuln/share-custom/issues"
+    "url": "https://github.com/wuln/share/tree/master/share-custom/issues"
   },
-  "homepage": "https://github.com/wuln/share-custom#readme",
+  "homepage": "https://github.com/wuln/share/tree/master/share-custom#readme",
   "devDependencies": {
     "grunt": "^1.0.1",
     "grunt-contrib-jshint": "^1.0.0",
